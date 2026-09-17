@@ -75,7 +75,7 @@ if uploaded_file is not None:
     st.image(image, width=200)
 
     # invert image
-    image = ImageOps.invert(image)
+    #image = ImageOps.invert(image)
 
     # transform
     transform = transforms.Compose([
